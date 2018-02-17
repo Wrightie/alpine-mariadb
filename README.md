@@ -1,11 +1,10 @@
 ## MariaDB 10 server on Alpine
 
-[![Docker Hub; nimmis/alpine-mariadb](https://images.microbadger.com/badges/image/nimmis/alpine-mariadb.svg)](https://registry.hub.docker.com/u/nimmis/alpine-mariadb)
 [![](https://images.microbadger.com/badges/image/wrightie/alpine-mariadb.svg)](https://microbadger.com/images/wrightie/alpine-mariadb "Get your own image badge on microbadger.com")
 
 ## Credits
 
-This image is cloned from [nimmis/alpine-mariadb](https://hub.docker.com/r/nimmis/alpine-mariadb/)
+This image is cloned from [nimmis/alpine-mariadb](https://hub.docker.com/r/nimmis/alpine-mariadb/), edited to match the locale and 
 
 ## What is MariaDB?
 
@@ -91,5 +90,5 @@ Contains the database files
 
 Contains logs from mariadb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjcyNzUxM119
+eyJoaXN0b3J5IjpbLTM3MjA2MDAzOV19
 -->
