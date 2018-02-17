@@ -2,6 +2,21 @@
 
 
 if [ -f /data/mysql.configured ]; then
+  #
+  # always create /var/run/mysqld directory if missing
+  # (and it will be missing if you recreate the container and reuse the same data)
+  # then set the correct owner
+  #
+
+  mkdir -p /var/run/mysqld
+  chown -R mysql.mysql /var/run/mysqld
+
+  #
+  # set the correct owner for the /data directory
+  #
+
+  chown -R mysql.mysql /data
+
   exit 0
 fi
 
@@ -12,7 +27,7 @@ fi
 mkdir -p /data/log/mysql
 mkdir -p /data/db/mysql/
 mkdir -p /data/conf
-mkdir -p /var/run/mysqld
+#mkdir -p /var/run/mysqld
 
 #
 # set correct owner
@@ -20,7 +35,7 @@ mkdir -p /var/run/mysqld
 
 chown -R mysql.mysql /data/log/mysql 
 chown -R mysql.mysql /data/db/mysql/
-chown -R mysql.mysql /var/run/mysqld
+#chown -R mysql.mysql /var/run/mysqld
 
 #
 # check for config-file
