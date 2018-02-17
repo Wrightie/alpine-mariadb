@@ -11,7 +11,7 @@ This image was cloned from [nimmis/alpine-mariadb](https://hub.docker.com/r/nimm
 MariaDB is a community-developed fork of the MySQL relational database management system intended to remain free under the GNU GPL.
 
 
-Container based on **nimmis/alpine-micro** [![Docker Hub; nimmis/alpine-micro](https://images.microbadger.com/badges/image/nimmis/alpine-micro.svg)](https://registry.hub.docker.com/u/nimmis/alpine-micro), a minimal os (8.5 Mb)  with working init process and syslog. For more information on how to set upp services, please read the dockumentation for [nimmis/alpine-micro](https://registry.hub.docker.com/u/nimmis/alpine-micro). This container is about half the size of the official mariadb docker container.
+Container based on **nimmis/alpine-micro** [![Docker Hub; nimmis/alpine-micro](https://images.microbadger.com/badges/image/nimmis/alpine-micro.svg)](https://hub.docker.com/r/nimmis/alpine-micro/), a minimal os (8.5 Mb)  with working init process and syslog. For more information on how to set upp services, please read the dockumentation for [nimmis/alpine-micro](https://registry.hub.docker.com/u/nimmis/alpine-micro). This container is about half the size of the official mariadb docker container.
 
 
 ## Starting the container
@@ -90,5 +90,5 @@ Contains the database files
 
 Contains logs from mariadb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTAxODMyMF19
+eyJoaXN0b3J5IjpbLTE3MjAxMzQ3OTddfQ==
 -->
