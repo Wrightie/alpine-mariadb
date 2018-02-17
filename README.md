@@ -85,3 +85,6 @@ Contains the database files
 ### /data/logs
 
 Contains logs from mariadb
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTg5MTY1MDgyMV19
+-->
