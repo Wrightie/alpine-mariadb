@@ -2,6 +2,10 @@
 
 [![Docker Hub; nimmis/alpine-mariadb](https://images.microbadger.com/badges/image/nimmis/alpine-mariadb.svg)](https://registry.hub.docker.com/u/nimmis/alpine-mariadb)
 
+## Credits
+
+MariaDB is a community-developed fork of the MySQL relational database management system intended to remain free under the GNU GPL.
+
 ## What is MariaDB?
 
 MariaDB is a community-developed fork of the MySQL relational database management system intended to remain free under the GNU GPL.
@@ -86,5 +90,5 @@ Contains the database files
 
 Contains logs from mariadb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTY1MDgyMV19
+eyJoaXN0b3J5IjpbMTcwMjg3NzU1MF19
 -->
