@@ -4,7 +4,7 @@
 
 ## Credits
 
-MariaDB is a community-developed fork of the MySQL relational database management system intended to remain free under the GNU GPL.
+This image is cloned from 
 
 ## What is MariaDB?
 
@@ -90,5 +90,5 @@ Contains the database files
 
 Contains logs from mariadb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjg3NzU1MF19
+eyJoaXN0b3J5IjpbLTE1MzMyMzk1MzNdfQ==
 -->
