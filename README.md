@@ -4,7 +4,7 @@
 
 ## Credits
 
-This image is cloned from [nimmis/alpine-mariadb](https://hub.docker.com/r/nimmis/alpine-mariadb/), edited to match the locale and 
+This image was cloned from [nimmis/alpine-mariadb](https://hub.docker.com/r/nimmis/alpine-mariadb/) and edited to match the locale  
 
 ## What is MariaDB?
 
@@ -90,5 +90,5 @@ Contains the database files
 
 Contains logs from mariadb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjA2MDAzOV19
+eyJoaXN0b3J5IjpbLTE1MzkyNDU2MjhdfQ==
 -->
