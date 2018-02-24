@@ -50,7 +50,7 @@ This allows the root password to be blank (remember: **THIS IS A MAJOR SECURITY 
 	-e MARIADB_ALLOW_EMPTY_PASSWORD=yes
 
 ### MARIADB_REMOTE_ROOT
-Normal the root user can only use localhost to access the databases adding
+Normally the root user can only use localhost to access the databases adding
 
 	-e MARIADB_REMOTE_ROOT=yes
 
@@ -90,5 +90,5 @@ Contains the database files
 
 Contains logs from mariadb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMTI3ODY3XX0=
+eyJoaXN0b3J5IjpbNzk3NTQ4Mjk2XX0=
 -->
