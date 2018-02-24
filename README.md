@@ -31,21 +31,21 @@ This variable defines the password for the root user in the database, se it with
 
 	-e MARIADB_ROOT_PASSWORD=secretpassword
 
-add quotes if there is spaces or other special character in the passwordd
+Add quotes if there are spaces or other special characters in the password
 
 	-e MARIADB_ROOT_PASSWORD='password with spaces'
 
 ### MARIADB_RANDOM_ROOT_PASSWORD
-This variable generate a random password for the root user, add 
+This variable generates a random password for the root user; add 
 
 	-e MARIADB_RANDOM_ROOT_PASSWORD=yes
 
-the password can then be found by looking at the logoutput
+The password can then be found by looking at the log output
 
 	docker logs <container>
 
 ### MARIADB_ALLOW_EMPTY_PASSWORD
-This allowes the root password to be blank, THIS IS A MAJOR SECURITY RISK, add
+This allows the root password to be blank (remember: **THIS IS A MAJOR SECURITY RISK**); add
 
 	-e MARIADB_ALLOW_EMPTY_PASSWORD=yes
 
@@ -90,5 +90,5 @@ Contains the database files
 
 Contains logs from mariadb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxNTQ4Njg2XX0=
+eyJoaXN0b3J5IjpbNTcxMTI3ODY3XX0=
 -->
