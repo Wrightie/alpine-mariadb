@@ -4,25 +4,25 @@
 
 ## Credits
 
-This image was cloned from [nimmis/alpine-mariadb](https://hub.docker.com/r/nimmis/alpine-mariadb/) and updated for internal use to match the it_IT locale, removing some unused build labels; also, it was fixed to let you run a new container reusing previous data
+This image was cloned from [nimmis/alpine-mariadb](https://hub.docker.com/r/nimmis/alpine-mariadb/) and updated for internal use to match the it_IT locale, removing some unused build labels; also, it was fixed to let you run a new container reusing previous data.
 
 ## What is MariaDB?
 
 MariaDB is a community-developed fork of the MySQL relational database management system intended to remain free under the GNU GPL.
 
 
-Container based on **nimmis/alpine-micro** [![Docker Hub; nimmis/alpine-micro](https://images.microbadger.com/badges/image/nimmis/alpine-micro.svg)](https://hub.docker.com/r/nimmis/alpine-micro/), a minimal os (8.5 Mb)  with working init process and syslog. For more information on how to set upp services, please read the dockumentation for [nimmis/alpine-micro](https://registry.hub.docker.com/u/nimmis/alpine-micro). This container is about half the size of the official mariadb docker container.
+Container based on **nimmis/alpine-micro** [![Docker Hub; nimmis/alpine-micro](https://images.microbadger.com/badges/image/nimmis/alpine-micro.svg)](https://hub.docker.com/r/nimmis/alpine-micro/), a minimal os (8.5 Mb)  with working init process and syslog. For more information on how to set up services, please read the documentation for [nimmis/alpine-micro](https://registry.hub.docker.com/u/nimmis/alpine-micro). This container is about half the size of the official MariaDB docker container.
 
 
 ## Starting the container
 
 To run the lastest stable version of this docker image run
 
-	docker run -d -e MARIADB_RANDOM_ROOT_PASSWORD=yes nimmis/alpine-mariadb
+	docker run -d -e MARIADB_RANDOM_ROOT_PASSWORD=yes wrightie/alpine-mariadb
 
 to expose the database to the external interface run
 
-	docker run -d -p 3306:3306 e MARIADB_RANDOM_ROOT_PASSWORD=yes nimmis/alpine-mariadb
+	docker run -d -p 3306:3306 e MARIADB_RANDOM_ROOT_PASSWORD=yes wrightie/alpine-mariadb
 
 ## Environment variables used in the container
 
@@ -90,5 +90,5 @@ Contains the database files
 
 Contains logs from mariadb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2NDQ4NDUxXX0=
+eyJoaXN0b3J5IjpbLTMwODkwMzEyMl19
 -->
