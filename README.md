@@ -4,14 +4,14 @@
 
 ## Credits
 
-This image was cloned from [nimmis/alpine-mariadb](https://hub.docker.com/r/nimmis/alpine-mariadb/) and updated for internal use to match the it_IT locale, removing some unused build labels.  ; also, it was fixed to let you run a new container reusing previously saved volume data.
+This image was cloned from [nimmis/alpine-mariadb](https://hub.docker.com/r/nimmis/alpine-mariadb/) and updated for internal use to match the it_IT locale, removing some unused build labels; also, it was fixed to let you run a new container reusing previously saved volume data.
 
 ## What is MariaDB?
 
 MariaDB is a community-developed fork of the MySQL relational database management system intended to remain free under the GNU GPL.
 
 
-Container based on **nimmis/alpine-micro** [![Docker Hub; nimmis/alpine-micro](https://images.microbadger.com/badges/image/nimmis/alpine-micro.svg)](https://hub.docker.com/r/nimmis/alpine-micro/), a minimal os (8.5 Mb)  with working init process and syslog. For more information on how to set upp services, please read the dockumentation for [nimmis/alpine-micro](https://registry.hub.docker.com/u/nimmis/alpine-micro). This container is about half the size of the official mMariadbDB docker container.
+Container based on **nimmis/alpine-micro** [![Docker Hub; nimmis/alpine-micro](https://images.microbadger.com/badges/image/nimmis/alpine-micro.svg)](https://hub.docker.com/r/nimmis/alpine-micro/), a minimal os (8.5 Mb)  with working init process and syslog. For more information on how to set up services, please read the documentation for [nimmis/alpine-micro](https://registry.hub.docker.com/u/nimmis/alpine-micro). This container is about half the size of the official MariaDB docker container.
 
 
 ## Starting the container
@@ -31,7 +31,7 @@ This variable defines the password for the root user in the database, se it with
 
 	-e MARIADB_ROOT_PASSWORD=secretpassword
 
-add quotes if there is spaces or other special character in the passwordd
+add quotes if there is spaces or other special character in the password
 
 	-e MARIADB_ROOT_PASSWORD='password with spaces'
 
@@ -40,12 +40,12 @@ This variable generate a random password for the root user, add
 
 	-e MARIADB_RANDOM_ROOT_PASSWORD=yes
 
-the password can then be found by looking at the log output
+The password can then be found by looking at the log output
 
 	docker logs <container>
 
 ### MARIADB_ALLOW_EMPTY_PASSWORD
-This allowes the root password to be blank, (remember: **THIS IS A MAJOR SECURITY RISK,**); add
+This allowes the root password to be blank (remember: **THIS IS A MAJOR SECURITY RISK**); add
 
 	-e MARIADB_ALLOW_EMPTY_PASSWORD=yes
 
@@ -57,22 +57,20 @@ Normally the root user can only use localhost to access the databases; adding
 allows root access from any host
 
 ### MARIADB_DATABASE
-cCreates a database with the defined name
+Creates a database with the defined name
 
 	-e MARIADB_DATABASE=databasename
 
 ### MARIADB_USER
-cCreates a user with password defined with MARIADB_PASSWORD and full access to the database defined by MARIADB_DATABASE
+Creates a user with password defined with MARIADB_PASSWORD and full access to the database defined by MARIADB_DATABASE
 
 	-e MARIADB_USER=username
 
 ### MARIADB_PASSWORD
-The apassword for the user defined by MARIADB_USER
+The password for the user defined by MARIADB_USER
 
 	-e MARIADB_PASSWORD=donottell
 
-
-### MARIADB_PASSWORD
 
 ## Volumes
 
@@ -80,7 +78,7 @@ The /data volume is defined containing
 
 ### /data/conf
 
-Contains the configuration of mMariadbDB (**my.cnf**)
+Contains the configuration of MariaDB (**my.cnf**)
 
 ### /data/db
 
@@ -88,7 +86,7 @@ Contains the database files
 
 ### /data/logs
 
-Contains logs from mMariadbDB
+Contains logs from MariaDB
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTk2NTc4ODcxMF19
 -->
