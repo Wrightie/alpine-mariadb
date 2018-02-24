@@ -50,29 +50,26 @@ This allows the root password to be blank (remember: **THIS IS A MAJOR SECURITY 
 	-e MARIADB_ALLOW_EMPTY_PASSWORD=yes
 
 ### MARIADB_REMOTE_ROOT
-Normally the root user can only use localhost to access the databases adding
+Normally the root user can only use localhost to access the databases; adding
 
 	-e MARIADB_REMOTE_ROOT=yes
 
 allows root access from any host
 
 ### MARIADB_DATABASE
-creates a database with the defined name
+Creates a database with the defined name
 
 	-e MARIADB_DATABASE=databasename
 
 ### MARIADB_USER
-creates a user with password defined with MARIADB_PASSWORD and full access to the database defined by MARIADB_DATABASE
+Creates a user with password defined with MARIADB_PASSWORD and full access to the database defined by MARIADB_DATABASE
 
 	-e MARIADB_USER=username
 
 ### MARIADB_PASSWORD
-The apssword for the user defined by MARIADB_USER
+The password for the user defined by MARIADB_USER
 
 	-e MARIADB_PASSWORD=donottell
-
-
-### MARIADB_PASSWORD
 
 ## Volumes
 
@@ -80,7 +77,7 @@ The /data volume is defined containing
 
 ### /data/conf
 
-Contains the configuration of mariadb (**my.cnf**)
+Contains the configuration of MariaDB (**my.cnf**)
 
 ### /data/db
 
@@ -88,7 +85,7 @@ Contains the database files
 
 ### /data/logs
 
-Contains logs from mariadb
+Contains logs from MariaDB
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3NTQ4Mjk2XX0=
+eyJoaXN0b3J5IjpbMTUyNTY4MDUxMl19
 -->
