@@ -20,7 +20,7 @@ To run the lastest stable version of this docker image run
 
 	docker run -d -e MARIADB_RANDOM_ROOT_PASSWORD=yes wrightie/alpine-mariadb
 
-to expose the database to the external interface run
+To expose the database to the external interface run
 
 	docker run -d -p 3306:3306 e MARIADB_RANDOM_ROOT_PASSWORD=yes wrightie/alpine-mariadb
 
@@ -90,5 +90,5 @@ Contains the database files
 
 Contains logs from mariadb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODkwMzEyMl19
+eyJoaXN0b3J5IjpbOTUxNTQ4Njg2XX0=
 -->
