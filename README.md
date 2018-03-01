@@ -45,7 +45,7 @@ The password can then be found by looking at the log output
 	docker logs <container>
 
 ### MARIADB_ALLOW_EMPTY_PASSWORD
-This allowes the root password to be blank (remember: **THIS IS A MAJOR SECURITY RISK**); add
+This allows the root password to be blank (remember: **THIS IS A MAJOR SECURITY RISK**); add
 
 	-e MARIADB_ALLOW_EMPTY_PASSWORD=yes
 
